@@ -1,0 +1,37 @@
+.modal-dialog {
+  margin: 0px;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@media (min-width: 520px) {
+  .modal-dialog {
+    width:auto;
+    margin-top: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* The fixed width creates a bug making the
+     modal disappear so it's removed and the width is still auto */
+  .modal-dialog {
+      width: auto;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+/* Add margin changes */
+@media (min-width: 992px) {
+  .modal-dialog {
+      width: auto;
+      margin-left: 15%;
+      margin-right: 15%;
+  }
+}
